@@ -39,6 +39,81 @@ pre > code {
     color: black;
 }
 
+table {
+    margin-top: 1.5em;
+    margin-bottom: 2.5em;
+    margin-left: 2em;
+    border-collapse:  collapse;
+}
+
+table th {
+    font-weight: bold;
+    text-align: left;
+    border-bottom: solid 2px;
+    padding-right: 1em;
+}
+
+table td {
+    border-bottom: solid 1px;
+    padding-right: 1em;
+}
+
+aside.note {
+    -webkit-border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border-style: dotted;
+    border-width: thin;
+    border-color: #dcdcdc;
+    background-color: #e4ffde;
+}
+
+aside.note > h4 {
+    padding: 0;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+aside.note > p {
+    padding: 0;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 1em;
+}
+
+aside.hint {
+    -webkit-border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border-style: dotted;
+    border-width: thin;
+    border-color: #dcdcdc;
+    background-color: #ffffcc;
+}
+
+aside.hint > h4 {
+    padding: 0;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+aside.hint > p {
+    padding: 0;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 1em;
+}
+
 body {
     margin: 0px;
     padding: 0px;
