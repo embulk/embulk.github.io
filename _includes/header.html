@@ -1,14 +1,18 @@
 <header>
   <nav aria-label="Top Menu">
-    <a href="{{ "/" | relative_url }}"><img width="84" height="45" src="{{ "/assets/images/embulk-logo.svg" | relative_url }}" alt="Jumping orance orca, which is a logo of Embulk"/></a>
-    <h1><span class="embulk"><a href="{{ "/" | relative_url }}">embulk</a></span></h1>
+    <div class="logo">
+      <a href="{{ "/" | relative_url }}"><img width="84" height="45" src="{{ "/assets/images/embulk-logo.svg" | relative_url }}" alt="Jumping orance orca, which is a logo of Embulk"/></a>
+      <a href="{{ "/" | relative_url }}" class="title">embulk</a>
+    </div>
     <ul class="menu">
       <li><a href="{{ "/docs/" | relative_url }}">Docs</a></li>
       <li><a href="{{ "/articles/" | relative_url }}">Articles</a></li>
       <li><a href="{{ "/recipes/" | relative_url }}">Recipes</a></li>
       <li><a href="https://plugins.embulk.org/">Plugins</a></li>
       <li><a href="https://dev.embulk.org/">Developers</a></li>
-      <li><a href="https://github.com/embulk/">GitHub</a></li>
+      <li>
+        <iframe src="https://ghbtns.com/github-btn.html?user=embulk&repo=embulk&type=star" frameborder="0" scrolling="0" width="50" height="20" title="GitHub"></iframe>
+      </li>
     </ul>
   </nav>
 </header>

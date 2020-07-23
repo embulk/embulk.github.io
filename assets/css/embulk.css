@@ -1,8 +1,23 @@
 ---
 ---
+
 @import url("https://fonts.googleapis.com/css?family=Ubuntu");
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans");
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
 
 span.collation {
     font-size: 90%;
@@ -14,7 +29,7 @@ div.content {
 }
 
 p > code {
-    font-family: 'Roboto Mono', monospace;
+    font-family: "Roboto Mono", monospace;
     background-color: #f7f7f7;
     padding-left: 2px;
     padding-right: 2px;
@@ -34,7 +49,7 @@ pre {
 }
 
 pre > code {
-    font-family: 'Roboto Mono', monospace;
+    font-family: "Roboto Mono", monospace;
     line-height: 180%;
     color: black;
 }
@@ -43,7 +58,7 @@ table {
     margin-top: 1.5em;
     margin-bottom: 2.5em;
     margin-left: 2em;
-    border-collapse:  collapse;
+    border-collapse: collapse;
 }
 
 table th {
@@ -123,7 +138,7 @@ iframe#slideshare {
 body {
     margin: 0px;
     padding: 0px;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: "Noto Sans", sans-serif;
     color: #666666;
 }
 
@@ -132,94 +147,92 @@ header {
     position: -webkit-sticky;
     position: sticky;
     padding: 0.5em;
-    margin-bottom: 3em;
-    border-bottom: solid 1px #cccccc;
     top: 0;
 }
 
-header nav h1 {
-    display: inline;
-    -webkit-text-size-adjust: 100%;
-    text-size-adjust: 100%;
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-header nav h1 span.embulk {
-    font-family: 'Ubuntu', sans-serif;
+header nav a {
+    color: #000000;
+}
+
+header nav a.title {
+    font-family: "Ubuntu", sans-serif;
     font-size: 28px;
 }
 
-header nav h1 span.subtitle {
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 14px;
-}
-
-header nav h1 span.embulk a {
-    color: #000000;
-    text-decoration: none;
-}
-
-header nav h1 span.subtitle a {
-    color: #333333;
-    text-decoration: none;
-}
-
-header nav h1 span.embulk a:hover {
-    text-decoration: underline;
-}
-
-header nav h1 span.subtitle a:hover {
-    text-decoration: underline;
-}
-
 header nav ul {
-    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
 }
 
 header nav ul li {
-    display: inline;
-    text-decoration: none;
-    padding: 0 10px !important;
+    list-style: none;
+    padding: 3px 10px;
 }
 
-header nav ul li a {
+header nav ul li iframe {
+    margin-top: 5px;
+}
+
+header nav ul a {
     color: #666666;
-    text-decoration: none;
+    text-transform: uppercase;
 }
 
-header nav ul li a:hover {
+header nav ul a:hover {
     text-decoration: underline;
+}
+
+main {
+    flex: 1;
 }
 
 main a {
     font-weight: bold;
-    text-decoration: none;
     color: #dc3c01;
 }
 
 main a:visited {
     font-weight: bold;
-    text-decoration: none;
     color: #892601;
 }
 
-main a:hover, a:active {
+main a:hover,
+main a:active {
     font-weight: bold;
     text-decoration: underline;
     color: #ff4500;
 }
 
 body#index main section#summary {
-    padding-top: 1em;
+    padding-top: 3.5em;
     padding-bottom: 3.5em;
     color: black;
-    text-align: center;
+    background: radial-gradient(
+        circle,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(137, 38, 1, 1) 100%
+    );
+    border-bottom: solid 1px #892601;
+    border-top: solid 1px #892601;
+}
+body#index main blockquote {
+    width: 80%;
+    margin: 0 auto;
 }
 
 body#index main section#summary blockquote#summary-block div.summary-main {
     font-weight: bold;
     font-size: 24px;
-
-    margin: 0.5em 1em 0.5em 1em;
+    text-align: center;
 }
 
 body#index main section#summary blockquote#summary-block div.summary-aside {
@@ -284,7 +297,8 @@ body#index main hr#after-abstract {
     }
 }
 
-div.two-columns > div.left, div.right {
+div.two-columns > div.left,
+div.right {
     margin-left: 3em;
     margin-right: 3em;
 }
@@ -330,13 +344,11 @@ body#post main article section#collation a {
 
 footer {
     background-color: #eeeeee;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0.5em;
-    border-top: solid 1px #cccccc;
+    padding: 20px 8px;
+    border-top: solid 1px #892601;
 }
 
-footer > p.copyright {
+footer p {
     text-align: center;
     font-size: 11px;
     margin: 0px;
