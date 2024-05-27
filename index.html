@@ -32,7 +32,7 @@
       <h2>Latest Versions</h2>
       <dl>
         <dt>Stable</dt>
-        <dd><a href="https://github.com/embulk/embulk/releases/tag/v0.11.2">v0.11.2</a></dd>
+        <dd><a href="https://github.com/embulk/embulk/releases/tag/v{{ site.embulk_version }}">v{{ site.embulk_version }}</a></dd>
         <dd>Note that v0.11 is not fully compatible with v0.9. Several plugins for v0.9 would not work with v0.11.</dd>
         <dd>Take a look at <a href="{{ "articles/2023/04/13/embulk-v0.11-is-coming-soon.html" | relative_url }}">this article</a> for details.</dd>
         <dt>Past stable</dt>
@@ -104,7 +104,7 @@ source ~/.bashrc</code></pre>
 
       <p>Finally, install some Ruby gems.</p>
 
-      <pre><code>embulk gem install embulk -v 0.11.2 # Must be the same Embulk version
+      <pre><code>embulk gem install embulk -v {{ site.embulk_version }} # Must be the same Embulk version
 embulk gem install msgpack
 embulk gem install bundler # if you need Bundler
 embulk gem install liquid  # if you need Liquid</code></pre>
