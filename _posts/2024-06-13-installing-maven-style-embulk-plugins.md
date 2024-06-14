@@ -2,6 +2,7 @@
 layout: posts
 title: "Installing Maven-style Embulk plugins"
 date: 2024-06-13
+last_modified_at: 2024-06-14
 description: "We recently started to provide a couple of methods to install the Maven-style Embulk plugins more easily, which was not very easy in the beginning of Maven-style plugins, indeed. This article is a brief introduction of the methods to install the Maven-style Embulk plugins."
 author: "dmikurube"
 ---
@@ -12,7 +13,7 @@ See also: [Embulk v0.11 is coming soon: JRuby](https://www.embulk.org/articles/2
 
 We recently started to provide a couple of methods to install the Maven-style Embulk plugins more easily, which was not very easy in the beginning of Maven-style plugins, indeed.
 
-This article is a brief introduction of the methods to install the Maven-style Embulk plugins.
+This article is a brief introduction of the new plugin installation methods.
 
 ## Revisit: Embulk home
 
@@ -107,7 +108,7 @@ installEmbulkRunSet {
 Then, run `gradle installEmbulkRunSet` (`./gradlew` when you use the Gradle wrapper) to set up.
 
 ```
-$ gradlew installEmbulkRunSet
+$ ./gradlew installEmbulkRunSet
 
 > Configure project :
 Supplied embulkHome "/home/user/my-embulk-home" does not exist, then will be created.
@@ -140,7 +141,7 @@ jruby=file\:///home/user/my-embulk-home/lib/m2/repository/org/jruby/jruby-comple
 
 In either style of installation, you can run Embulk with the installed Maven-style Embulk plugins.
 
-See the example `s3_with_maven.yaml` below.
+See the example `s3_with_maven.yml` below.
 
 ```yaml
 in:
