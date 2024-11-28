@@ -65,6 +65,6 @@ If you're interested in joining as a maintainer, these are good candidates to st
 Embulk and Treasure Data, jfyi
 -------------------------------
 
-Just for your information... Some of you may have thought in the past that Embulk and the eco-system were owned and controlled by [Treasure Data](https://www.treasuredata.com/). But, that's not the case anymore!
+Just for your information... Some of you may have thought in the past that Embulk and the eco-system were owned and controlled by [Treasure Data](https://www.treasuredata.com/). But, that's not the case anymore! Do not hesitate to join us.
 
 Please take a look at this article if you're interested: [Embulk maintenance goes open](https://www.embulk.org/articles/2023/03/10/embulk-maintenance-gets-open.html).
