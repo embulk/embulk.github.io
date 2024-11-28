@@ -23,8 +23,8 @@ We need help. However, it is uneasy for us to say "We need **your** help" to eve
 
 You may remember the news about the XZ Utils backdoor that was revealed in April 2024.
 
-* [Social engineering aspect of the XZ incident | Securelist](https://securelist.com/xz-backdoor-story-part-2-social-engineering/112476/)
-* [Timeline of the xz open source attack](https://research.swtch.com/xz-timeline)
+* Securelist by Kaspersky: [Social engineering aspect of the XZ incident](https://securelist.com/xz-backdoor-story-part-2-social-engineering/112476/) (April 24, 2024)
+* Russ Cox: [Timeline of the xz open source attack](https://research.swtch.com/xz-timeline) (April 3, 2024)
 
 We expect that the same can happen to Embulk. Putting absolute trust in a completely new person has a risk in the world now.
 
