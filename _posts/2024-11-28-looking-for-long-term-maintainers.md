@@ -53,12 +53,12 @@ This is not to say that we won't accept someone who is completely new, of course
 
 We'd appreciate it if you and your organization would consider supporting the Embulk open-source community in this difficult time for open source.
 
-We have some "starter projects", for you!
--------------------------------------------
+We have some starter projects, for you!
+----------------------------------------
 
 Anyway, it is impossible for anyone to immediately take on such a maintainer role from ground zero for making decisions in the community.
 
-As a starting point, we've prepared some "starter projects" for newcomers in GitHub Discussions. See: [Contributors wanted](https://github.com/orgs/embulk/discussions/categories/contributors-wanted)
+As a starting point, we've prepared some starter projects for newcomers in GitHub Discussions. See: [Contributors wanted](https://github.com/orgs/embulk/discussions/categories/contributors-wanted)
 
 If you're interested in joining as a maintainer, these are good candidates to start with. Each project would require a certain amount of work, with several decisions to be made. Let's work on them together, collaborating and discussing with us. We'd like you to expand your role in the community through the projects.
 
