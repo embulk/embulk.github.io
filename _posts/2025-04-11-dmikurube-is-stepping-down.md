@@ -10,7 +10,7 @@ As mentioned in another article "[Looking for long-term maintainers around the E
 
 It has been a great journey with Embulk there. I was faced with a lot of interesting challenges, and I enjoyed tackling them. However, this time, I have decided to leave.
 
-I will stay on as one of the maintainers and the Core Team members, with a consensus with the company. However, I can only spend part of my personal time on Embulk. I will no longer be the "main" maintainer. Please keep in mind that I will have no duties, I may be inactive for a while, and I may not respond to issues that are raised.
+I will stay on as one of the Embulk maintainers and the Embulk Core Team members, with a consensus with the company. However, I can only spend part of my personal time on Embulk. I will no longer be the "main" maintainer. Please keep in mind that I will have no duties, I may be inactive for a while, and I may not respond to issues that are raised.
 
 The company has shown no intention of taking a leadership role in the Embulk project and contributing to its maintenance. As a result, the Embulk project will have no _active_ maintainers, at least for a while.
 
