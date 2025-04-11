@@ -6,7 +6,7 @@ description: "If you would like the Embulk project to keep going, your help is s
 author: "dmikurube"
 ---
 
-As mentioned in another article "[Looking for long-term maintainers around the Embulk eco-system](https://www.embulk.org/articles/2024/11/28/looking-for-long-term-maintainers.html)", Dai Mikurube ([@dmikurube](https://github.com/dmikurube)), the author, has been working as the main maintainer of the Embulk project, as an employee of [Treasure Data](https://www.treasuredata.com/).
+As mentioned in another article "[Looking for long-term maintainers around the Embulk eco-system](https://www.embulk.org/articles/2024/11/28/looking-for-long-term-maintainers.html)", Dai Mikurube ([@dmikurube](https://github.com/dmikurube)), the author, has been playing the main maintainer role of the Embulk project, as an employee of [Treasure Data](https://www.treasuredata.com/).
 
 It has been a great journey with Embulk there. I was faced with a lot of interesting challenges, and I enjoyed tackling them. However, this time, I have decided to leave.
 
