@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: Embulk into the "maintenance mode"
+title: Embulk into the maintenance mode
 date: 2025-11-10
 description: "The Embulk project is going into the maintenance mode. Please do not expect that Embulk will be maintained actively. Even if you submit a pull request to the Embulk project, it may not be reviewed nor merged."
 author: "dmikurube"
