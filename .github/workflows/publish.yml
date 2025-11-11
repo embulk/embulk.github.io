@@ -2,7 +2,6 @@
 name: Publish
 on:
   push:
-    branches: ["main"]
 #
 # This block is necessary for the `actions/deploy-pages` actions.
 # If this part does not exist, raise the following error.
@@ -39,6 +38,7 @@ jobs:
         uses: actions/upload-pages-artifact@v4
 
   deploy:
+    if: github.ref == 'refs/heads/main'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
